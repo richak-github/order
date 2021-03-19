@@ -1,6 +1,6 @@
 services:
   order-container:
-    image: 260526/order-service:v2
+    image: 260526/order-service:v3
     ports: 
       - "9090:9088"
     restart: always
